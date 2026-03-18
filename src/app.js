@@ -19,9 +19,10 @@ connectDB();
 
 // ── CORS Sazlamaları (Frontend xətası almamaları üçün) ──────────────
 const allowedOrigins = [
-  'http://localhost:5173', // Vite/React üçün yerli port
+  'http://localhost:8080', // Vite/React üçün yerli port
   'http://localhost:3000',
   'https://evus.vercel.app/',
+  'http://192.168.1.170:8080/',
   process.env.FRONTEND_URL  // Render-də mühit dəyişəni olaraq əlavə edəcəyin frontend linki
 ];
 
